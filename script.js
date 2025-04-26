@@ -1,8 +1,5 @@
-import { initializeApp } from 
-"https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js"; 
-import { getAuth, createUserWithEmailAndPassword, 
-signInWithEmailAndPassword,signOut,signInWithPopup,GoogleAuthProvider, 
-onAuthStateChanged,} from "https://www.gstatic.com/firebasejs/11.6.1/firebaseauth.js"; 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js"; 
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,signOut,signInWithPopup,GoogleAuthProvider, onAuthStateChanged,} from "https://www.gstatic.com/firebasejs/11.6.1/firebaseauth.js"; 
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebaseanalytics.js"; 
 
 const firebaseConfig = {
