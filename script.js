@@ -1,9 +1,9 @@
 import { initializeApp } from 
-"https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js"; 
+"https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js"; 
 import { getAuth, createUserWithEmailAndPassword, 
 signInWithEmailAndPassword,signOut,signInWithPopup,GoogleAuthProvider, 
-onAuthStateChanged,} from "https://www.gstatic.com/firebasejs/11.4.0/firebaseauth.js"; 
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebaseanalytics.js"; 
+onAuthStateChanged,} from "https://www.gstatic.com/firebasejs/11.6.1/firebaseauth.js"; 
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebaseanalytics.js"; 
 
 const firebaseConfig = {
     apiKey: "AIzaSyBNIUk5SLHuRjd8adp-vkpMnuKlsPmqj7w",
